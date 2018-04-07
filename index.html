@@ -11,6 +11,12 @@
         <!--google font-->
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Dosis" rel="stylesheet">
         
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+        
+       <!-- BS4 -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        
         <Title>
             Stacy's profile!
         </Title>
@@ -19,7 +25,9 @@
 <body>
     <div class="container clearfix">
 
-        <img src="/Users/StacyWang 1/Library/Mobile Documents/com~apple~CloudDocs/UX:UI/UCI/16. HTML: CSS/Unit16-Homework/image-folder/girl.jpg" alt="Stacy proifle pic">
+<!-- img: folder/link, Avatar (round shape + css border-radius), makes img responsive(class + css .responsive ) -->
+        <img src="image-folder/Stacy Wang profile picture .jpg" alt="Avatar" class="responsive">
+        
         <h1>Hi, 
             <br>My Nmae Is 
             <span>STACY WANG</span>
@@ -29,20 +37,21 @@
 
 <div>
     <body>
-        <section>
+        <div class="about-me">
             <h1>//ABOUT ME</h1>
             <p>My name is Stacy and I am a super awesome UX/UI designer.</p>
-        </section>
+        </div>
 
         <section>
             <h1>//EDUCATION</h1>
             <div>
                 <h3>2018  University Of California Irvine
-            <br>UX/UI Bootcamp</h3>
+                <br>UX/UI Bootcamp</h3>
             </div>
         </section>
 
         <section>
+            <div class="whole-experience">
             <h1>//EXPERIENCE</h1>
             <ul>
                 <li>
@@ -83,29 +92,35 @@
                         Made some awesome lattes.</p>
                 </li>
             </ul>
+            </div>
         </section>  
 
         <section>
             <h1>//Contact</h1>
             <ul>
                 <li>
-                    <!--telephone icon-->
-                    <span>
-                        <h4>909-551-9480</h4>
-                    </span>
+                    <div class="mobile">
+                        <!--telephone icon-->
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>
+                            <h4>909-551-9480</h4>
+                        </span>
+                    </div>
                 </li>
 
                 <li>
                     <!--email icon-->
+                    <i class="far fa-envelope"></i>
                     <span>
-                        <h4>stacystwang@gmail.com</h4>
+                        <a href="milto:stacystwang@gmail.com"><h4>stacystwang@gmail.com</h4></a>
                     </span>
                 </li>
 
                 <li>
                     <!--linkined icon-->
+                    <i class="fab fa-linkedin"></i>
                     <span>
-                        <h4>https://www.linkedin.com/in/stacy-wang-41490586</h4>
+                        <a href="https://www.linkedin.com/in/stacy-wang-41490586"><h4>Click Here</h4></a>
                     </span>
                 </li>
             </ul>   

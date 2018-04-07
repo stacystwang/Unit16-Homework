@@ -1,4 +1,14 @@
+/* RESETS */
 
+
+
+/* GLOBAL CLASSES */
+
+/* FLEX BOX */
+
+/* CUSTOM CLASSES */
+
+/* GLOBAL CLASSES */
 body {
     background-color:black;
     color:white;
@@ -22,4 +32,24 @@ body {
 h1 span {
     color:pink;
     font-weight: bold;
+}
+
+li{
+    list-style:none;
+}
+
+i{
+    color:lightblue;
+    font-size:30px;
+}
+/* avatar img */
+
+img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
