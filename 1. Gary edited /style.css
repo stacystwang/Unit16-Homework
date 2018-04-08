@@ -1,0 +1,94 @@
+/* RESETS */
+
+
+
+/* GLOBAL CLASSES */
+
+/* FLEX BOX */
+
+/* CUSTOM CLASSES */
+
+/* GLOBAL CLASSES */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background-color:black;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    font-size:16px;
+}
+
+.container{
+    display:block;
+    width: 100%;
+    margin:0,auto;
+
+}
+
+.pink {
+    color:pink;
+    font-weight: bold;
+}
+
+
+li{
+    list-style:none;
+}
+
+
+h4 { 
+    display: inline; /* H1-6 are display:block; elements so to keep them in line use this */
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+i{
+    color:rgb(208, 228, 32);
+    font-size: 30px;
+}
+/* avatar img */
+
+img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.main-content {
+    display: inline-flex;
+}
+
+.column1 {
+    width: 60vw;
+    padding-left:30px;
+}
+
+
+.column2 {
+    width: 40vw;  
+}
+
+.header {
+    text-align: center;
+}
+
+.space{
+    white-space: pre;
+    /* this property lets you use "spacebar" to add more "gutter" */
+}
+
+.noBUTT {
+    margin-bottom:0;
+}
+
+.noTOP {
+    margin-top: 0;
+}

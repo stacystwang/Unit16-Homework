@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewpoint" content="wide=device-width", 
-        initial-scale="1",shrink-to-fit="0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <!--link CSS file-->
         <link rel="stylesheet" href="/Users/StacyWang 1/Library/Mobile Documents/com~apple~CloudDocs/UX:UI/UCI/16. HTML: CSS/Unit16-Homework/css-folder/style.css">
 
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
         
        <!-- BS4 -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         
         <Title>
             Stacy's profile!
@@ -23,36 +23,52 @@
     </head>
 
 <body>
-    <div class="container clearfix">
+    <div class="container">
 
 <!-- img: folder/link, Avatar (round shape + css border-radius), makes img responsive(class + css .responsive ) -->
         <img src="image-folder/Stacy Wang profile picture .jpg" alt="Avatar" class="responsive">
         
         <h1>Hi, 
             <br>My Nmae Is 
-            <span>STACY WANG</span>
+            <span class="pink">STACY WANG</span>
         </h1>
     </div>
-</body>
+
 
 <div>
-    <body>
-        <div class="about-me">
+    
+        <div class="pink column1">
+            <table>
+                <tr>
+                    <th>About Me</th>
+                    <th>Hobbies</th>
+                </tr>
+
+                <tr>
+                    <td>Stacy</td> 
+                    <td>Wang</td>
+                </tr>
+                <tr>
+                    <td>yoga</td>
+                    <td>travel</td>
+                </tr>
+            
+            </table>
+
             <h1>//ABOUT ME</h1>
             <p>My name is Stacy and I am a super awesome UX/UI designer.</p>
         </div>
 
-        <section>
+        <div class="pink column1">
             <h1>//EDUCATION</h1>
-            <div>
+        
                 <h3>2018  University Of California Irvine
                 <br>UX/UI Bootcamp</h3>
-            </div>
-        </section>
+        </div>
 
         <section>
-            <div class="whole-experience">
-            <h1>//EXPERIENCE</h1>
+            <div class="pink column1">
+            <h1 >//EXPERIENCE</h1>
             <ul>
                 <li>
                 <h2> Thoughtbot 
@@ -95,11 +111,11 @@
             </div>
         </section>  
 
-        <section>
+        <div class="pink column2">
             <h1>//Contact</h1>
             <ul>
                 <li>
-                    <div class="mobile">
+                    <div>
                         <!--telephone icon-->
                         <i class="fas fa-mobile-alt"></i>
                         <span>
@@ -109,25 +125,29 @@
                 </li>
 
                 <li>
+                    <div>
                     <!--email icon-->
                     <i class="far fa-envelope"></i>
                     <span>
                         <a href="milto:stacystwang@gmail.com"><h4>stacystwang@gmail.com</h4></a>
                     </span>
+                    </div>
                 </li>
 
                 <li>
+                    <div>
                     <!--linkined icon-->
                     <i class="fab fa-linkedin"></i>
                     <span>
                         <a href="https://www.linkedin.com/in/stacy-wang-41490586"><h4>Click Here</h4></a>
                     </span>
+                    </div>
                 </li>
             </ul>   
-        </section>
+        </div>
         
-        <section>
-            <h1>//Skills</h1>
+        <div>
+            <h1 class="pink column2">//Skills</h1>
             <ul>
                 <li>Project Management</li>
                 <li>Bilingual</li>
@@ -138,25 +158,26 @@
                 <li>UX/UI</li>
                 <li>HTML/CSS/JAVASCRIPT</li>
             </ul>    
-        </section>
+        </div>
 
-        <section>
-            <h1>//Hobbies</h1>
+        <div class="column2">
+            <h1 class="pink">//Hobbies</h1>
             <ul>
                 <li>Yoga</li>
                 <li>Wine tasting</li>
                 <li>Watch Exhibitions</li>
                 <li>Photographing</li>
             </ul>   
-        </section>
+        </div>
 
-        <section>
-            <h1>//Fun Facts</h1>
+        <div class="columns2">
+            <h1 class="pink">//Fun Facts</h1>
             <ul>
                 <li>I can do headstand pretty well.</li>
                 <li>I lived in Asia for 15 years and I can speak 3 differnet languages.</li>
             </ul>
-        </section>
+        </div>
+    
     </body>
-</div>
+
 </html>

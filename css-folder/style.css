@@ -9,6 +9,11 @@
 /* CUSTOM CLASSES */
 
 /* GLOBAL CLASSES */
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+
 body {
     background-color:black;
     color:white;
@@ -22,24 +27,38 @@ body {
     box-sizing: border-box;
   }
 
-  .clearfix::after {
+.container{
+    display:inline-flex;
+}
+
+.item{
+    flex: 1;
+    order:1;
+}
+  /* @media (min-width: 576px) 
+  {
+     height: 100%;
+   } */
+
+  /* .clearfix::after {
     content: "";
     display: block;
     height: 0;
     clear: both;
-  }
+  } */
 
-h1 span {
+.pink {
     color:pink;
     font-weight: bold;
 }
+
 
 li{
     list-style:none;
 }
 
 i{
-    color:lightblue;
+    color:rgb(208, 228, 32);
     font-size:30px;
 }
 /* avatar img */
@@ -49,7 +68,15 @@ img{
     height:200px;
     border-radius:50%;
 }
-.responsive {
-    max-width: 100%;
+.column1 {
+    width: 50%;
+    height: auto;
+    
+}
+.column2 {
+    width: 50%;
     height: auto;
 }
+/* .table,th,td{
+    border:2px solid black;
+} */
